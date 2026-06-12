@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAE - Rede de Apoio Escolar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="landing-desktop-container">
+        <header class="landing-desktop-nav">
+            <div class="nav-logo">
+                <h1>RAE</h1>
+                <span>Rede de Apoio Escolar</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#features">Funcionalidades</a>
+                <a href="#about">Sobre</a>
+            </nav>
+        </header>
+
+        <main class="landing-desktop-main">
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h2>Bem-vindo à Rede de Apoio Escolar!</h2>
+                    <p>Uma plataforma completa para gerenciar atividades escolares, reservas, tarefas e muito mais — tudo em um lugar!</p>
+                    <div class="hero-buttons">
+                        <a href="login.html" class="btn-primary">
+                            <i class="fas fa-sign-in-alt"></i>
+                            Acessar o Sistema
+                        </a>
+                        <a href="#features" class="btn-secondary">
+                            <i class="fas fa-play-circle"></i>
+                            Conheça as Funcionalidades
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Estudantes felizes na escola">
+                </div>
+            </section>
+
+            <section id="features" class="features-section">
+                <h2 class="section-title">O que você pode fazer?</h2>
+                <div class="features-grid">
+                    <div class="feature-card-desktop">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Reservas Rápidas</h3>
+                        <p>Reserve laboratórios, bibliotecas e salas de aula em segundos. Simples e intuitivo.</p>
+                    </div>
+                    <div class="feature-card-desktop">
+                        <div class="feature-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Gerenciamento de Tarefas</h3>
+                        <p>Organize suas atividades, marque o progresso e nunca mais perca um prazo!</p>
+                    </div>
+                    <div class="feature-card-desktop">
+                        <div class="feature-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Biblioteca Digital</h3>
+                        <p>Controle de empréstimos, devoluções e um catálogo completo de livros.</p>
+                    </div>
+                    <div class="feature-card-desktop">
+                        <div class="feature-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Ferramentas para Professores</h3>
+                        <p>Recursos exclusivos para professores gerenciarem suas aulas e atividades.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about-section">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professor ensinando alunos">
+                </div>
+                <div class="about-content">
+                    <h2>Por que RAE?</h2>
+                    <p>A Rede de Apoio Escolar foi criada para facilitar o dia a dia escolar. Queremos que estudantes, professores e funcionários tenham todas as ferramentas que precisam em um só lugar, de forma prática e acessível.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check-circle"></i> Interface intuitiva</li>
+                        <li><i class="fas fa-check-circle"></i> Acessível em qualquer dispositivo</li>
+                        <li><i class="fas fa-check-circle"></i> Totalmente gratuita</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="landing-desktop-footer">
+            <p>&copy; 2026 RAE - Rede de Apoio Escolar. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    <div class="theme-toggle">
+        <button id="themeToggleBtn" class="btn-theme" aria-label="Alternar modo claro/escuro">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
